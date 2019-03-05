@@ -1,7 +1,8 @@
 # {{ ansible_managed }}
 
 [DEFAULT]
-use_journal = True
+#use_journal = True
+log_dir = /var/log/cinder
 # Disable stderr logging
 use_stderr = False
 debug = {{ debug }}
